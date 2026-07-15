@@ -17,9 +17,9 @@ logger = structlog.get_logger(__name__)
 @dataclass
 class MT5Config:
     """MetaTrader5 connection configuration."""
-    account: int = 0
-    password: str = ""
-    server: str = ""
+    account: int = 1610079329
+    password: str = "Ajmal@123"
+    server: str = "STARTRADERFinancial-Demo"
     timeout: int = 60000  # milliseconds
 
 
